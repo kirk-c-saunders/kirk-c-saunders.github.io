@@ -1,0 +1,78 @@
+body {
+    background-color: #132A13;
+    color: white;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background-image: radial-gradient(circle, #4f772d, #132A13);
+}
+
+p {
+    text-indent: 2rem;
+}
+
+a {
+    text-decoration: underline;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    width: 100vw;
+    gap: 10px;
+    align-items: center;
+}
+
+main > * {
+    margin: 5px;
+}
+
+#profile-picture-desktop {
+    display: none;
+}
+
+#current-endevors, #dad-jokes {
+    grid-column: span 2;
+}
+
+#dad-jokes > ul {
+    list-style: disc outside none;
+    display: list-item;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    main {
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+            "background current-endevors"
+            "dad-jokes dad-jokes";
+    }
+
+    #background {
+        grid-area: background;
+    }
+
+    #current-endevors {
+        grid-area: current-endevors;
+    }
+
+    #dad-jokes {
+        grid-area: dad-jokes;
+    }
+    
+    #profile-picture-desktop {
+        display: block;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+    }
+
+    #profile-picture-mobile {
+        display: none;
+    }
+}

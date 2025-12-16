@@ -3,188 +3,63 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <title>Resume Template</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Kirk Saunders</title>
     </head>
     <body>
-        <main class="container">
-            <section class="header">
-                <h1>Kirk Saunders</h1>
-                <p class="contact">
-                    Email:
-                    <a href="mailto:torikirksaunders@gmail.com"
-                        >torikirksaunders@gmail.com</a
-                    >
-                    <!-- I apologize, I am not currenly
-                     comfortable putting my phone number up here -->
-                    | Phone: (555) 555-5555 | LinkedIn:
-                    <a href="https://linkedin.com/in/kirk-saunders-13428b38">www.linkedin.com/in/kirk-saunders-13428b38</a>
-                </p>
-                <p><a href="projects.html">Project Spotlights</a></p>
-            </section>
-            <section class="section">
-                <h2>Summary</h2>
+        <header>
+            <h1>Kirk Saunders</h1>
+            <nav><a href="./resume.html">Resume</a> | <a href="./projects.html">Project Spotlight</a> </nav>
+        </header>
+        <main>
+            <img id="profile-picture-mobile" src="./images/Profile Picture.jpg" alt="Profile Picture of Kirk Saunders">
+            <article id="background">
+                <h2>Background</h2>
+                <img id="profile-picture-desktop" src="./images/Profile Picture.jpg" alt="Profile Picture of Kirk Saunders">
                 <p>
-                    SQL Developer, specializing with Microsoft SQL Server. Over 13 years professional experience
-                    working with 500+ GB databases in both the healthcare and ecommerce sectors.
+                    With over 13 years professional experience working in envionrments of 500+ GB Databases,
+                    Kirk is a Database Engineer specializing in Microsoft SQL Server. First, application support of a
+                    home-grown case management platform in Healthcare, and now Database Engineering for a
+                    large wholesaler in the Hospitality industry.
                 </p>
-            </section>
-            <section class="section">
-                <h2>Work Experience</h2>
-                <div class="item">
-                    <h3>Database Engineer - WebstaurantStore.com</h3>
-                    <p>September 2023 - Current</p>
-                    <p>
-                        Design, develop, optimize and support database and database interactions for the project team.
-                    </p>
-                    <ul>
-                        <li>Coordination with Scrum team members on solutions and designs for business needs.</li>
-                        <li>Create/update database objects to meet business requirements.</li>
-                        <li>Proactive and reactive performance tuning.</li>
-                        <li>Mentoring of summer interns and junior team members.</li>
-                        <li>Create pull requests with a set of documents to prove adherence to standards, accuracy, and performance.</li>
-                        <li>Complete code reviews for other team members to ensure adherence to standards, quality, accuracy, and performance.</li>
-                        <li>Complete On Call and Code Deployer responsibilities.</li>
-                        <li>Refine and size user stories with the Scrum team.</li>
-                        <li>Work with Product Owner and Business Analyst to identify and define technical requirements from business needs.</li>
-                        <li>Identify and document areas of product improvement.</li>
-                        <li>Balance work across two distinct project teams.</li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>DBA/Configuration Manager - RxCrossroads</h3>
-                    <p>March 2018 - September 2023</p>
-                    <p>
-                        Microsoft SQL Server environment hosting proprietary databases responsibilities:
-                    </p>
-                    <ul>
-                        <li>Server management, oversight, and tier III support.</li>
-                        <li>SQL query optimization, standards development, and code review.</li>
-                        <li>Deployment of database changes via Azure DevOps CI/CD pipelines.</li>
-                        <li>Creation of in-house data de-identification solution.</li>
-                        <li>Build of in-house GoAnywhere MFT monitoring extension.</li>
-                        <li>Design and oversight of database changes for application. modernization into microservice architecture.</li>
-                        <li>Database data correction.</li>
-                        <li>Custom business report development and performance optimization.</li>
-                        <li>Implementation, management, and support for data warehouse data sync process from 3rd party vendor.</li>
-                    </ul>
-                    <p>
-                        Other Responsibilities:
-                    </p>
-                    <ul>
-                        <li>Development and tier II support of GoAnywhere MFT tasks for business task automation.</li>
-                        <li>Partial project planning and implementation of two data center migrations.</li>
-                        <li>Coordination with Agile Scrum teams for database/SQL design and development tasks.</li>
-                        <li>Training and mentoring team members of SQL best practices and standards.</li>
-                        <li>Project planning, story creation, prioritization and assignment for projects quoted 300 hours or less of total effort.</li>
-                        <li>Assist non-database deployment tasks.</li>
-                        <li>Assist tier II Application Help Desk ticket resolution.</li>
-                        <li>Support of SSIS data exchange processes.</li>
-                        <li>Support of SSRS reporting portal.</li>
-                        <li>sFTP account management.</li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>Application Support Specialist</h3>
-                    <p>January 2013 - March 2018</p>
-                    <p>
-                        Tier II Help Desk of proprietary Case Management platform responsibilities:
-                    </p>
-                    <ul>
-                        <li>Prioritization, triage, and resolution of tickets.</li>
-                        <li>Communication and coordination with end users and stakeholders for: issue resolution, solution documentation, and training.</li>
-                        <li>SQL query optimization.</li>
-                        <li>Database data correction.</li>
-                        <li>Application bug detection and solution recommendations.</li>
-                        <li>Application/Tool creation for improved resolution of regular issues.</li>
-                        <li>Utilization and management of Task Automation software AutoMate and Control-M.</li>
-                        <li>Training new team members.</li>
-                        <li>Support SSIS data exchange processes.</li>
-                        <li>Support SSRS reporting portal.</li>
-                        <li>sFTP account management.</li>
-                    </ul>
-                    <p>
-                        Other Responsibilities:
-                    </p>
-                    <ul>
-                        <li>Creation and implementation of database data archive platform.</li>
-                        <li>Implementation of a data center migration, on-prem to on-prem.</li>
-                        <li>Application and database deployment.</li>
-                        <li>Custom business report development and performance optimization.</li>
-                    </ul>
-                </div>
-            </section>
-            <div class="section">
-                <h2>Education</h2>
-                <div class="item">
-                    <h3>Computer Science, Bachelors of Arts - Anderson University</h3>
-                    <p>2013</p>
-                </div>
-                <div class="item">
-                    <h3>Highschool Deploma - University Highschool</h3>
-                    <p>2009</p>
-                </div>
-            </section>
-            <section class="section">
-                <h2>Skills</h2>
-                <div class="skills">
-                    <ul>
-                        <li>T-SQL</li>
-                        <li>Microsoft SQL Server</li>
-                        <li>Database Design</li>
-                        <li>Performance Tuning</li>
-                        <li>Team Leadership</li>
-                        <li>C#</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section">
-                <h2>Projects</h2>
-                <div class="item">
-                    <h3>Data Archive</h3>
-                    <p>
-                        C# libraries which:
-                    </p>
-                    <ul>
-                        <li>Identified all tables containing transactional data.</li>
-                        <li>Duplicated the schema.</li>
-                        <li>Generated stored procedures to transfer in scope data to secondary database with real time transaction and row counts logging, allowing for progress monitoring and quality checks.</li>
-                    </ul>
-                    <p>
-                        Project outcome: improved performance of all applications with no code changes and reducing data breach risk footprint.
-                    </p>
-                </div>
-                <div class="item">
-                    <h3>Data De-Identification</h3>
-                    <p>
-                        SQL Functions for masking all PHI/PII/sensitive data elements, allowing
-                        refresh of non-production environment with production data set.
-                        Utilized existing relationships to apply changes consistently.
-                        Created documentation of processed tables and columns, allowing for simple
-                        additions after new columns or tables were added.
-                    </p>
-                    <p>All functions and temporary tables were:</p>
-                    <ul>
-                        <li>Self-contained units, removed after all data changes were completed, leaving a true version of database schema.</li>
-                        <li>Used only standard T-SQL features thus eliminating need for 3rd party tools or libraries.</li>
-                        <li>Reviewed, approved, and documented by information security teams.</li>
-                        <li>Utilized existing table relationships to apply changes consistently.</li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>Automated Task Logging and Monitoring Extension</h3>
-                    <p>Created database and procedures to:</p>
-                    <ul>
-                        <li>Log execution statistics of automated tasks from GoAnywhere MFT.</li>
-                        <li>Analyze data to create and prioritize alerts to the Application Support Team for current and potential issues.</li>
-                    </ul>
-                    <p>
-                        Project outcome: improved proactive identification and response to issues, 
-                        reducing overall issue resolution time and impact. Framework allowed for 
-                        simple implementation of additional analysis metrics as business needs arise.
-                    </p>
-                </div>
-            </section>
+                <p>
+                    Kirk has a focus on performant and error-free queries and stored procedures,
+                    against tables with all appropriate constraints to ensure data is clean and
+                    well organized. Helping his projects effectivly and efficiently store and retrieve data
+                    while also having clean data for complex data analysis and visualization.
+                </p>
+                <p>
+                    Having experience with several Agile frameworks and Waterfall, Kirk fits well into existing team
+                    dynamics.
+                </p>
+                <br>
+                <p>
+                    Kirk and his wife of over 12 years live in Louisville, KY with their two pets. Outside of work the
+                    two of them enjoy spending time togeather: reading, playing board/card games, and few crafting hobbies.
+                </p>
+            </article>
+            <article id="current-endevors">
+                <h2>Current Endevors</h2>
+                <p>
+                    Kirk is currently working on two separate projects in warehouse operations for his current employer.
+                    He is also upskilling with FreeCodeCamp's
+                    <em><a href="https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/">Foundational
+                        C# with Microsoft Certification</a></em>
+                    as well as Code:You's Web Development class for Front End Web Development.
+                </p>
+            </article>
+            <article id="dad-jokes">
+                <h2>Some Dad Jokes....Just Because</h2>
+                <ul>
+                <li>Who are the most internet savvy Pokemon? --- Vulpix and Ninetales, as
+                    they are both Fire Foxes. However on a Mac, it is any Pokemon in the Safarri Zone.</li>
+                <li>I drove 75 miles in a snow storm to get a computer part. --- It was a hard drive.</li>
+                <li>What do you call an attractive pig? --- Hamsome</li>
+                <li>Did you hear that Snoop Dogg and Dr Dre give some of the prettiest presents ever?
+                    --- They are some of the best rappers in the world</li>
+                </ul>
+            </article>
         </main>
     </body>
 </html>
