@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Kirk Saunders</title>
-    </head>
-    <body>
-        <header>
-            <h1>Kirk Saunders</h1>
-            <nav><a href="./resume.html">Resume</a> | <a href="./projects.html">Project Spotlight</a> </nav>
-        </header>
-        <main>
-            <img id="profile-picture-mobile" src="./images/Profile Picture.jpg" alt="Profile Picture of Kirk Saunders">
-            <article id="background">
-                <h2>Background</h2>
-                <img id="profile-picture-desktop" src="./images/Profile Picture.jpg" alt="Profile Picture of Kirk Saunders">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Kirk Saunders</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Kirk Saunders</h1>
+        <nav>
+            <a href="./resume.html">Resume</a> | <a href="./projects.html">Project Spotlight</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="background">
+            <div class="profile-container">
+                <img src="./images/Profile Picture.jpg" alt="Profile Picture of Kirk Saunders">
+            </div>
+
+            <section>
+
+                <h2 class="centered-text">Background</h2>
                 <p>
                     With over 13 years professional experience working in envionrments of 500+ GB Databases,
                     Kirk is a Database Engineer specializing in Microsoft SQL Server. First, application support of a
@@ -36,30 +45,41 @@
                 <br>
                 <p>
                     Kirk and his wife of over 12 years live in Louisville, KY with their two pets. Outside of work the
-                    two of them enjoy spending time togeather: reading, playing board/card games, and few crafting hobbies.
+                    two of them enjoy spending time togeather: reading, playing board/card games, and few crafting
+                    hobbies.
                 </p>
-            </article>
-            <article id="current-endevors">
-                <h2>Current Endevors</h2>
+            </section>
+
+        </article>
+
+        <article class="current-endevors">
+            <section>
+                <h2 class="centered-text">Current Endevors</h2>
                 <p>
                     Kirk is currently working on two separate projects in warehouse operations for his current employer.
                     He is also upskilling with FreeCodeCamp's
                     <em><a href="https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/">Foundational
-                        C# with Microsoft Certification</a></em>
+                            C# with Microsoft Certification</a></em>
                     as well as Code:You's Web Development class for Front End Web Development.
                 </p>
-            </article>
-            <article id="dad-jokes">
-                <h2>Some Dad Jokes....Just Because</h2>
+            </section>
+        </article>
+
+        <article class="dad-jokes">
+            <section>
+                <h2 class="centered-text">Some Dad Jokes....Just Because</h2>
                 <ul>
-                <li>Who are the most internet savvy Pokemon? --- Vulpix and Ninetales, as
-                    they are both Fire Foxes. However on a Mac, it is any Pokemon in the Safarri Zone.</li>
-                <li>I drove 75 miles in a snow storm to get a computer part. --- It was a hard drive.</li>
-                <li>What do you call an attractive pig? --- Hamsome</li>
-                <li>Did you hear that Snoop Dogg and Dr Dre give some of the prettiest presents ever?
-                    --- They are some of the best rappers in the world</li>
+                    <li>Who are the most internet savvy Pokemon? --- Vulpix and Ninetales, as
+                        they are both Fire Foxes. However on a Mac, it is any Pokemon in the Safarri Zone.</li>
+                    <li>I drove 75 miles in a snow storm to get a computer part. --- It was a hard drive.</li>
+                    <li>What do you call an attractive pig? --- Hamsome</li>
+                    <li>Did you hear that Snoop Dogg and Dr Dre give some of the prettiest presents ever?
+                        --- They are some of the best wrappers in the world</li>
                 </ul>
-            </article>
-        </main>
-    </body>
+            </section>
+        </article>
+
+    </main>
+</body>
+
 </html>
