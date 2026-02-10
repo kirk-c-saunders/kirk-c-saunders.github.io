@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "colorsAndFonts.css";
+@import "globalVariables.css";
 
 body {
     background-color: var(--background-color);
@@ -48,7 +48,7 @@ a {
 }
 
 
-@media screen and (min-width: 768px) {
+@media (min-width: 992px) {
     .background {
         grid-template-columns: 1fr 2fr;
     }

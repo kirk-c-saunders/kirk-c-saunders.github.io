@@ -1,0 +1,93 @@
+@import "reset.css";
+@import "globalVariables.css";
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: var(--background-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px var(--text-color);
+}
+h1,
+h2 {
+    color: var(--text-color);
+}
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    text-align: center;
+    background-image: radial-gradient(circle, var(--header-gradient-primary), var(--header-gradient-secondary));
+}
+.header h1 {
+    margin: 10px 0;
+}
+.contact {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.contact a {
+    text-decoration: none;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 5px;
+}
+.item {
+    margin-bottom: 15px;
+}
+.item h3 {
+    margin: 0;
+    font-size: 18px;
+}
+.item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.item ul li {
+    font-size: 14px;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-inline-start: 40px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    display: inline-block;
+    background: var(--header-gradient-primary);
+    padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+    .flexbox-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section {
+        max-width: 400px;
+    }
+
+    .container {
+        max-width: 90vw;
+    }
+}

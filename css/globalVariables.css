@@ -3,4 +3,5 @@
     --text-color: white;
     --header-gradient-primary: #4f772d;
     --header-gradient-secondary: var(--background-color);
+    --screen-size-breakpoint: 992px;
 }

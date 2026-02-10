@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "colorsAndFonts.css";
+@import "globalVariables.css";
 
 body {
     font-family: Arial, sans-serif;
