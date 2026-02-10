@@ -21,10 +21,6 @@ h1,
 h2 {
     color: var(--text-color);
 }
-.flexbox-container {
-    display: flex;
-    flex-direction: column;
-}
 .header {
     text-align: center;
     background-image: radial-gradient(circle, var(--header-gradient-primary), var(--header-gradient-secondary));
@@ -76,8 +72,13 @@ h2 {
     border-radius: 4px;
 }
 
+#flexbox-container {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (min-width: 992px) {
-    .flexbox-container {
+    #flexbox-container {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
