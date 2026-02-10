@@ -1,0 +1,6 @@
+:root{
+    --background-color: #132A13;
+    --text-color: white;
+    --header-gradient-primary: #4f772d;
+    --header-gradient-secondary: var(--background-color);
+}

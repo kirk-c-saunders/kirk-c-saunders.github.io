@@ -1,11 +1,14 @@
+@import "reset.css";
+@import "colorsAndFonts.css";
+
 body {
-    background-color: #132A13;
-    color: white;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 .header {
     text-align: center;
-    background-image: radial-gradient(circle, #4f772d, #132A13);
+    background-image: radial-gradient(circle, var(--header-gradient-primary), var(--header-gradient-secondary));
 }
 
 .main {

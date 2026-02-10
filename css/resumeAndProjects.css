@@ -1,22 +1,29 @@
+@import "reset.css";
+@import "colorsAndFonts.css";
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: var(--background-color);
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px var(--text-color);
 }
 h1,
 h2 {
-    color: #007bff;
+    color: var(--text-color);
+}
+
+h1 {
+    background-image: radial-gradient(circle, var(--header-gradient-primary), var(--header-gradient-secondary));
 }
 .header {
     text-align: center;
@@ -29,7 +36,6 @@ h2 {
     font-size: 14px;
 }
 .contact a {
-    color: #007bff;
     text-decoration: none;
 }
 .section {
@@ -37,7 +43,7 @@ h2 {
 }
 .section h2 {
     margin-bottom: 10px;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid var(--text-color);
     padding-bottom: 5px;
 }
 .item {
@@ -46,7 +52,6 @@ h2 {
 .item h3 {
     margin: 0;
     font-size: 18px;
-    color: #555;
 }
 .item p {
     margin: 5px 0;
@@ -54,6 +59,9 @@ h2 {
 }
 .item ul li {
     font-size: 14px;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-inline-start: 40px;
 }
 .skills ul {
     list-style: none;
@@ -61,8 +69,7 @@ h2 {
 }
 .skills ul li {
     display: inline-block;
-    background: #007bff;
-    color: #fff;
+    background: var(--header-gradient-primary);
     padding: 5px 10px;
     margin: 5px 5px 5px 0;
     border-radius: 4px;
