@@ -9,9 +9,9 @@ const projectsToDisplay = [
         projectTitle: "Family Feud",
         projectDescription: "This project holds a set of HTML, CSS and JavaScript files to run a simple round of the classic family game show, \"Family Feud\". Plans are to upgrade this project in the future to allow it to generate a round on demand from either a database on an API as well as track team scores. Allowing this to be used as a tool to support family game nights or similar fun events in small groups."
     },{
-        repoName: "webdev-task-001",
-        projectTitle: "Vocabulary List",
-        projectDescription: "An HTML page with a list of HTML/CSS/JavaScript vocabulary words important for us students to know. Has some CSS applied to it to make it slightly more interesting to look at while reviewing the list."
+        repoName: "the-quote-card-express",
+        projectTitle: "Quote Card",
+        projectDescription: "A web page leveraging Express Node.js which pulls a random image from the Unsplash API and makes it the background for a quote."
     }
 ]
 
